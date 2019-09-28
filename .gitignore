@@ -1,2 +1,6 @@
 #image files
 images/*
+#other files
+joins-vn-backup.php
+template.php
+test.html
