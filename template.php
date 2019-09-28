@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>MillionInvestment-register</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="with=device-width, initial-scale=1">
+<!-- link to Bootrap 4 CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="intro.css">
+  </head>
+  <body>
+    <div class="container mx-auto d-block">
+      <header>MillionInvestment</header>
+
+      <footer class="text-secondary">
+        Copyright &copy; 2019 By MillionInvestment.net <br>
+        <a href="mailto:thinhvuaus@gmail.com?subject=feedback">email to thinhvuaus@gmail.com</a>
+      </footer>
+    </div>
+    <script type="text/javascript" src="./js/intro.js">
+    </script>
+  </body>
+</html>

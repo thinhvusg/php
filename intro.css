@@ -1,0 +1,97 @@
+/* reset rules */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
+/*for all*/
+
+body {
+  font-size: 100%
+  font-family: Calibri, Arial, Tahoma;
+}
+
+.finish {
+  text-align: center;
+  font-family: sans-serif, Arial, Tahoma;
+  font-size: 200%;
+}
+
+footer{
+  color:#DC143C; /*crimson */
+  text-align: center;
+  margin: 20px;
+}
+
+article.slideshow h2 {
+  font-family: Calibri, Arial, Tahoma;
+  font-size: 1.5em;
+}
+
+article.slideshow .done-txt {
+  font-family: Calibri, Arial, Tahoma;
+  font-style: italic;
+  font-size: 1.1em;
+}
+article.slideshow .report-txt {
+   font-family: Calibri, Arial, Tahoma;
+   font-size : 1.2em;
+   text-align: center;
+   color: Blue;
+ }
+@media only screen and (min-width: 1080px) {
+  header {color: Red;
+      text-align: center;
+      margin-top:0;
+      padding-top: 20px;
+      font-family: "FreeStyle Script", Arial, Tahoma;
+      font-size: 5vw;
+  }
+  article.slideshow p {
+    text-align: center;
+    padding: 7px;
+    font-family: Calibri, Arial, Tahoma;
+    font-size: 2.3vw;
+  }
+  article.slideshow img {
+    width: 40%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  header {color: Red;
+      text-align: center;
+      margin-top:0;
+      padding-top: 20px;
+      font-family: "FreeStyle Script", Arial, Tahoma;
+      font-size: 2.8em;
+  }
+
+  article.slideshow p {
+    text-align: center;
+    padding: 7px;
+    /*font-family: "Comic Sans Ms", Arial, Tahoma;*/
+    font-family: Calibri, Arial, Tahoma;
+    font-size: 1.2em;
+  }
+  article.slideshow img {
+    width: 100%;
+    height: auto;
+  }
+}
